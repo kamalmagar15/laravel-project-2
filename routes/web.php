@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('pages.index');
 });
-Route::get('/page', function () {
+Route::get('/list', function () {
     return view('pages.list');
 });
 Route::get('/number', function () {
